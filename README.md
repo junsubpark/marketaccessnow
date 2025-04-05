@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# MarketAccessNow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Accurate drug pricing information and forecasting for market access professionals.
 
-## Available Scripts
+## 프로젝트 개요
 
-In the project directory, you can run:
+**MarketAccessNow**는 대한민국 제약 산업 종사자를 위한 약가 정보 제공 플랫폼입니다.  
+정확한 약가 변동 정보와 예측을 통해 마켓 액세스(Market Access) 전문가의 업무 효율을 높이는 것이 목적입니다.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 주요 기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. 오늘의 약가 변동
+- 최신 보건복지부 고시 기반 약가 인상/인하 정보 확인
+- 품목별 변화 이력 제공
 
-### `npm test`
+### 2. 고시·공시 요약
+- 복잡한 보건복지부 고시를 빠르게 요약
+- 마켓 액세스 실무자용 필수 정보 정리
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. 정책 브리핑
+- 약가제도 및 제약 산업 관련 최신 정책 변화 요약
+- 주요 이슈 및 산업 흐름 파악
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 기술 스택
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** (Frontend SPA 개발)
+- **Tailwind CSS** (스타일링)
+- **Netlify** (정적 배포)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 로컬 실행 방법
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. 프로젝트 설치
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. 개발 서버 실행
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. 프로덕션 빌드
+    ```bash
+    npm run build
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 배포 정보
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+이 프로젝트는 Netlify를 통해 배포됩니다.  
+정적 HTML, CSS, JS 파일로 자동 빌드 및 업로드됩니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 MarketAccessNow. All rights reserved.
