@@ -22,11 +22,11 @@ function App() {
         <p className="text-gray-600 mb-6">
           Accurate drug pricing information and forecasting for market access professionals.
         </p>
-        <img
-          src="/magnifier.png"
-          alt="Magnifier icon"
-          className="mx-auto w-16 h-16 mb-6"
-        />
+        <img 
+  src="/magnifier.png" 
+  alt="Magnifying glass with info lines" 
+  className="mx-auto w-16 h-16 mb-6" 
+/>
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <div className="bg-white shadow-md p-4 rounded-xl w-64">
             <h2 className="font-bold text-lg">오늘의 약가 변동</h2>
