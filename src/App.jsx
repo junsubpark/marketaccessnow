@@ -10,10 +10,10 @@ function App() {
           <span className="text-xl font-bold">MarketAccessNow</span>
         </div>
         <nav className="space-x-6 text-sm font-medium">
-          <a href="#" onClick={() => window.open('', '_blank').document.write('<h1>약가이력 찾기</h1>')}>약가이력 찾기</a>
-          <a href="#" onClick={() => window.open('', '_blank').document.write('<h1>신제품약가 검토</h1>')}>신제품약가 검토</a>
-          <a href="#" onClick={() => window.open('', '_blank').document.write('<h1>정부정책 검색</h1>')}>정부정책 검색</a>
-        </nav>
+  <button onClick={() => window.open('', '_blank').document.write('<h1>약가이력 찾기</h1>')}>약가이력 찾기</button>
+  <button onClick={() => window.open('', '_blank').document.write('<h1>신제품약가 검토</h1>')}>신제품약가 검토</button>
+  <button onClick={() => window.open('', '_blank').document.write('<h1>정부정책 검색</h1>')}>정부정책 검색</button>
+</nav>
       </header>
 
       {/* 본문 */}
