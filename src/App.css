@@ -1,0 +1,5 @@
+/* 기본 스타일 - 추후 필요 시 확장 가능 */
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
