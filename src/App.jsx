@@ -53,7 +53,9 @@ function App() {
           </div>
         </div>
         <p className="text-xs mt-12 text-gray-400">
-          © 2025 MarketAccessNow. All rights reserved. | <a href="mailto:fursie@naver.com" className="underline">문의하기</a>
+          © 2025 MarketAccessNow. All rights reserved. | <button onClick={() => window.location.href = "mailto:fursie@naver.com"}>
+  문의하기
+</button>
         </p>
       </main>
     </div>
