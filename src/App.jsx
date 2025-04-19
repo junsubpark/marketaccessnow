@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import DrugHistory from "./pages/DrugHistory";
+import DrugPriceHistory from "./pages/DrugPriceHistory";
 
 function App() {
   return (
@@ -13,14 +13,14 @@ function App() {
             <h1 className="text-xl font-bold text-gray-800">MarketAccessNow</h1>
           </div>
           <nav className="space-x-6 text-sm">
-            <Link to="/history" className="hover:underline text-blue-600">약가이력 찾기</Link>
+            <Link to="/DrugPriceHistory" className="hover:underline text-blue-600">약가이력 찾기</Link>
             <button className="hover:underline text-blue-600">신제품약가 검토</button>
             <button className="hover:underline text-blue-600">정부정책 검색</button>
           </nav>
         </header>
 
         <Routes>
-          <Route path="/history" element={<DrugHistory />} />
+          <Route path="/DrugPriceHistory" element={<DrugPriceHistory />} />
           <Route
             path="/"
             element={
